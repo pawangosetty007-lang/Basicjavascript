@@ -1,0 +1,23 @@
+
+let mymarks :number=90
+
+if(mymarks>35 && mymarks<50)
+{
+    console.log("The student just passed")
+}
+else if(mymarks>50 &&mymarks<60)
+       {
+          console.log("The student got second class")
+       }
+    else if(mymarks>60 && mymarks<80)
+          {
+            console.log("The student got first class")
+          }
+        else if(mymarks>80)
+              {
+                 console.log("The student got distinction")
+              }
+            else 
+                  {
+                     console.log("The student got failed")
+                  }
